@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: teal;
+
+}
+
+.box {
+    width: 1500px;
+    padding: 50px 0;
+    margin: 0 auto;
+
+}
+
+ul,
+ol {
+    list-style-type: none;
+
+}
+
+.box ul {
+    display: flex;
+    justify-content: right;
+    transition: 10s;
+
+}
+
+.box a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 0 20px;
+    text-transform: capitalize;
+    font-family: "Tektur", sans-serif;
+    font-weight: 400;
+
+}
+
+.box a:hover {
+    color: tomato;
+    
+}
+
